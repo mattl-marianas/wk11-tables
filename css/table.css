@@ -1,0 +1,54 @@
+﻿
+   @charset "utf-8";
+
+   h1 {
+      color: rgb(207, 185, 15);
+      font-size: 2em;
+   }
+   
+   table {
+      border-collapse: collapse;
+      border: 20px groove gray;
+   }
+
+   th, td {
+      border: 1px solid gray;
+      padding: 5px;
+      text-align: left;
+      vertical-align: top;
+   }
+
+   caption {
+      caption-side: top;
+      text-align: left;
+      color: black;
+      font-size: 1.5em;
+   }
+
+   table col#firstCol {
+      background-color: rgb(164, 70, 236);
+      width: 150px;
+   }
+
+   table col#dayCol {
+      width: 120px;
+   }
+
+   table col#hourCols {
+      width: 75px;
+   }
+
+   table thead {
+      background-color: aqua;
+      text-align: center;
+   }
+
+   tbody th {
+      background-color: rgb(139, 24, 201);
+      color: white;
+   }
+
+   tfoot {
+      background-color: lightblue;
+      font-weight: bold;
+   }
